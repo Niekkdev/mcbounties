@@ -1,0 +1,23 @@
+prefix: "&6&lMcBounties &r&7>>"
+
+# The amount of time in seconds a player has to wait to set a bounty again
+bounty_command_cool_down: 60
+
+# The country code for the currency
+# For example: SEK GBP ILS EGP USD EUR TRY
+
+currency: USD
+
+messages:
+  bounty_on_yourself: "&cYou cannot set a bounty on yourself!"
+  player_already_bountied: "&cThat player already has a bounty!"
+  no_money: "&cYou do not have enough money!"
+  withdrawn_set_amount: "&aWithdrawn &e%amount%&a of your account to set the bounty!"
+  bounty_set_player_amount: "&aBounty set for &e%player% &awith amount &e%amount%&a!"
+  player_bounty_amount: "&e%player% &ahas now a bounty of &e%amount%&a!"
+  player_received_bounty_amount: "&aYou've received &e%amount% &afor killing &e%player%&a!"
+  victim_died: "&cWoops, you died! Next time better chance!"
+
+  bounty_cool_down: "&cYou have to wait &e%time% &cto set a bounty again!"
+
+users:

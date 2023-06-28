@@ -1,0 +1,8 @@
+name: McBounties
+version: '1.0.7'
+main: dev.niekk.mcbounties.McBounties
+api-version: 1.19
+author: Codr
+description: A simple bounty plugin for Minecraft
+
+depend: [ Vault ]
