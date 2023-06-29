@@ -36,7 +36,7 @@ dependencies {
 val pluginVersion = property("plugin.version") as String
 val pluginName = property("plugin.name") as String
 
-group = "dev.codr"
+group = "dev.niekkdev"
 version = pluginVersion
 description = "McBounties"
 java.sourceCompatibility = JavaVersion.VERSION_17
@@ -65,8 +65,8 @@ tasks {
         this.mergeServiceFiles()
         this.archiveClassifier.set("")
         this.archiveVersion.set(version.toString())
-        this.relocate("cloud.commandframework", "dev.codr.shaded.cloud")
-        this.relocate("io.leangen.geantyref", "dev.codr.shaded.typetoken")
+        this.relocate("cloud.commandframework", "dev.niekkdev.shaded.cloud")
+        this.relocate("io.leangen.geantyref", "dev.niekkdev.shaded.typetoken")
     }
 
     this.build {
